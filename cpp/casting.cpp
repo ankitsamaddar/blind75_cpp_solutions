@@ -19,6 +19,7 @@ int main() {
 	// a1 = a2;
 	a1 = static_cast<int>(a2);
 	// const : value of the variable won't change after initialization
-
+	// when exploring codes use const to check which variables are modified and where
+	// use const if absolutely no need to change the variables
 	return 0;
 }
