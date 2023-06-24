@@ -1,9 +1,9 @@
-/* PROGRAM 01. Manmohan Loves Patterns - I
+// DATE: 25-06-2023
+/* PROGRAM: 01_Manmohan Loves Patterns - I
 https://www.hackerrank.com/contests/launchpad-1-winter-challenge/challenges/manmohan-loves-patterns-i
 
 Problem
 Given N, help Manmohan to print pattern upto N lines. For eg For N=5 , following pattern will be printed.
-
 1
 11
 111
@@ -11,15 +11,12 @@ Given N, help Manmohan to print pattern upto N lines. For eg For N=5 , following
 11111
 
 Input Format
-
 Single number N.
 
 Constraints
-
 N<=1000
 
 Output Format
-
 Pattern corresponding to N.
 
 Sample Input
