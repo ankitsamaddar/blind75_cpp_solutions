@@ -26,4 +26,5 @@ Files with suffix `_std` uses _input.txt_ and _output.txt_ std input and output 
 | 18     | [Bubble Sort](<18_Bubble Sort.cpp>)                                           | 30-06-2023 |
 | 19     | [Insertion Sort](<19_Insertion Sort.cpp>)                                     | 30-06-2023 |
 | 20     | [Inbuilt Sort](<20_Inbuilt Sort.cpp>)                                         | 30-06-2023 |
-| 21 | [SubArray Sum I - O(n^3)](<21_SubArray Sum I - O(n3).cpp>) | 02-07-2023 | 
+| 21     | [SubArray Sum I - O(n^3)](<21_SubArray Sum I - O(n3).cpp>)                    | 02-07-2023 |
+| 22 | [SubArray Sum II - O(n^2)](<22_SubArray Sum II - O(n2).cpp>) | 02-07-2023 | 
