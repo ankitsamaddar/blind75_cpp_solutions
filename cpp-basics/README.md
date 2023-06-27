@@ -13,3 +13,4 @@ Files with suffix `_std` uses _input.txt_ and _output.txt_ std input and output 
 | 05     | [Finding Square Root](<05_Finding Square Root.cpp>)                       | 27-06-2023 |
 | 06 | [Final Displacement](<06_Final Displacement.cpp>) | 28-06-2023 |
 | 07 | [Using Operators](<07_Using Operators.cpp>) | 28-06-2023 | 
+| 08 | [Number Pattern II](<08_Number Pattern II.cpp>) | 28-06-2023 | 
