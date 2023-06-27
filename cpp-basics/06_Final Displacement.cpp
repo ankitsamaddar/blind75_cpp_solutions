@@ -3,13 +3,13 @@
 
 Find the final displacement in terms of x and y.
 
-        N
-        |
-        |
+       N
+       |
+       |
 W--------------E
-        |
-        |
-        S
+       |
+       |
+       S
 
 Going N north is y+1 and going S south is y-1
 Going E east is x+1 and going W west is x-1
