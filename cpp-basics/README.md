@@ -2,7 +2,7 @@
 
 This folder contains all cpp solutions for _cpp-basics_.
 
-Files with suffix `_std` use std for input and output using _input.txt_ and _output.txt_.
+Files with suffix `_std` uses _input.txt_ and _output.txt_ std input and output (used in OnlineJudge).
 
 | SL NO. | PROGRAM NAME                                                        | DATE       |
 | ------ | ------------------------------------------------------------------- | ---------- |
