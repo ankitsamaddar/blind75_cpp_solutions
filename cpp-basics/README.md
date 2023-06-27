@@ -12,3 +12,4 @@ Files with suffix `_std` uses _input.txt_ and _output.txt_ std input and output 
 | 04     | [Number Pyramid Pattern I](<04_Number Pyramid Pattern I.cpp>)             | 27-06-2023 |
 | 05     | [Finding Square Root](<05_Finding Square Root.cpp>)                       | 27-06-2023 |
 | 06 | [Final Displacement](<06_Final Displacement.cpp>) | 28-06-2023 |
+| 07 | [Using Operators](<07_Using Operators.cpp>) | 28-06-2023 | 
