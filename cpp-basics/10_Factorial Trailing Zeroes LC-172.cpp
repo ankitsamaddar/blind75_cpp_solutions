@@ -25,12 +25,13 @@ Constraints:
 EXPLANATION
 - trailing zeros in factorial of a number occurs when multiplied by 10 (factors of 10 are 2 and 5)
 - 2 occurs many times so we consider numbers which are multiples of 5
-- So we can calculate number of time 10 occus like
+- So we can calculate number of time 10 occurs using the formula :
 (100/5^1)+(100/5^2)+(100/5^3)+... = Number of zeros
 */
 // @ankitsamaddar @2023
 #include <iostream>
 using namespace std;
+// start of soln.
 int findZeros(int n){
 int ans=0;
 for(int d = 5;n/d>=1;d*=5){
@@ -38,6 +39,7 @@ for(int d = 5;n/d>=1;d*=5){
 }
 return ans;
 }
+//end of soln.
 int main() {
     long long int N;
     cin >> N;
