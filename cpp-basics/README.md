@@ -14,4 +14,5 @@ Files with suffix `_std` uses _input.txt_ and _output.txt_ std input and output 
 | 06     | [Final Displacement](<06_Final Displacement.cpp>)                         | 28-06-2023 |
 | 07     | [Using Operators](<07_Using Operators.cpp>)                               | 28-06-2023 |
 | 08     | [Number Pattern II](<08_Number Pattern II.cpp>)                           | 28-06-2023 |
-| 09 | [Unique Number](<09_Unique Number.cpp>) | 28-06-2023 | 
+| 09     | [Unique Number](<09_Unique Number.cpp>)                                   | 28-06-2023 |
+| 10 | [Factorial Trailing Zeroes LC-172](<10_Factorial Trailing Zeroes LC-172.cpp>) | 28-06-2023 |
