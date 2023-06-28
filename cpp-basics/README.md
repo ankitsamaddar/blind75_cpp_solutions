@@ -17,5 +17,5 @@ Files with suffix `_std` uses _input.txt_ and _output.txt_ std input and output 
 | 09     | [Unique Number](<09_Unique Number.cpp>)                                       | 28-06-2023 |
 | 10     | [Factorial Trailing Zeroes LC-172](<10_Factorial Trailing Zeroes LC-172.cpp>) | 28-06-2023 |
 | 11     | [Print N Primes](<11_Print N Primes.cpp>)                                     | 29-06-2023 |
-| 12 | [Nth Fibonacci Number](<12_Nth Fibonacci Number.cpp>) | 29-06-2023 | 
-| 13 | [Alphabet Pattern I](<13_Alphabet Pattern I.cpp>) | 29-06-2023 | 
+| 12     | [Nth Fibonacci Number](<12_Nth Fibonacci Number.cpp>)                         | 29-06-2023 |
+| 13     | [Alphabet Pattern I](<13_Alphabet Pattern I.cpp>)                             | 29-06-2023 |
