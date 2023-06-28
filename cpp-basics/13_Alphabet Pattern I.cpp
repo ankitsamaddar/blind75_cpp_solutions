@@ -19,7 +19,7 @@ AB
 A
 
 EXPLANATION
-- incrementing a character goes to the next character in
+- incrementing a character goes to the next character in ASCII
 */
 // @ankitsamaddar @2023
 #include <iostream>
