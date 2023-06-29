@@ -25,3 +25,4 @@ Files with suffix `_std` uses _input.txt_ and _output.txt_ std input and output 
 | 17 | [Selection Sort](<17_Selection Sort.cpp>) | 30-06-2023 | 
 | 18 | [Bubble Sort](<18_Bubble Sort.cpp>) | 30-06-2023 | 
 | 19 | [Insertion Sort](<19_Insertion Sort.cpp>) | 30-06-2023 | 
+| 20 | [Inbuilt Sort](<20_Inbuilt Sort.cpp>) | 30-06-2023 | 
