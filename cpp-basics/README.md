@@ -22,3 +22,4 @@ Files with suffix `_std` uses _input.txt_ and _output.txt_ std input and output 
 | 14     | [Linear Search](<14_Linear Search.cpp>)                                       | 29-06-2023 |
 | 15 | [Largest and Smallest Number](<15_Largest and Smallest Number.cpp>) | 30-06-2023 | 
 | 16 | [Binary Search](<16_Binary Search.cpp>) | 30-06-2023 | 
+| 17 | [Selection Sort](<17_Selection Sort.cpp>) | 30-06-2023 | 
