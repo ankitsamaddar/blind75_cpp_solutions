@@ -19,3 +19,4 @@ Files with suffix `_std` uses _input.txt_ and _output.txt_ std input and output 
 | 11     | [Print N Primes](<11_Print N Primes.cpp>)                                     | 29-06-2023 |
 | 12     | [Nth Fibonacci Number](<12_Nth Fibonacci Number.cpp>)                         | 29-06-2023 |
 | 13     | [Alphabet Pattern I](<13_Alphabet Pattern I.cpp>)                             | 29-06-2023 |
+| 14     | [Linear Search](<14_Linear Search.cpp>)                                       | 29-06-2023 |
