@@ -10,14 +10,18 @@ OUTPUT
 
 EXPLANATION
 - traverse from left to right by repeatedly swapping the adjacent elements if they are in the wrong order(ascending or descending).
+- Function Passing and using Comparator in Bubble Sort
 */
 // @ankitsamaddar @2023
 #include <iostream>
 using namespace std;
-void bubbleSort(int n,int arr[]){
+bool compare(int a,int b){
+	return(a>b);
+}
+void bubbleSort(int n,int arr[],bool (&cmp)(int a,int b)){ // Function is passed by reference
 	for (int i = 0; i<n-1; i++) {
 		for (int j = 0; j<n-i-1; j++) {
-			if(arr[j]>arr[j+1])
+			if(cmp(arr[j],arr[j+1]))
 				swap(arr[j],arr[j+1]);
 		}
 	}
@@ -29,7 +33,7 @@ int main() {
 	for (int i = 0; i<n; i++) {
 		cin>>arr[i];
 	}
-	bubbleSort(n, arr);
+	bubbleSort(n, arr,compare); // function passing
 	for (int i = 0; i<n; i++) {
 		cout<<arr[i]<<" ";
 	}
