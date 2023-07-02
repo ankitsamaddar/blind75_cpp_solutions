@@ -12,7 +12,8 @@ EXPLANATION
 - find maximum subarray sum in O(n) using Kadane's Algorithm
 – the subarray with negative sum is discarded (by assigning maxSum = 0 in code).
 – we carry subarray till it gives positive sum.
-- In Kadane's Algorithm, at each iteration, the algorithm updates curSum by adding the current element to it and checks if curSum is greater than maxSum. If curSum is greater than maxSum, then maxSum is updated to curSum. If curSum becomes negative, it is reset to zero, as a negative sum cannot be part of the maximum sum subarray.
+- In Kadane's Algorithm, at each iteration, the algorithm updates curSum by adding the current element to it and checks if curSum is greater than maxSum.
+- If curSum is greater than maxSum, then maxSum is updated to curSum. If curSum becomes negative, it is reset to zero, as a negative sum cannot be part of the maximum sum subarray.
 
 */
 // @ankitsamaddar @2023
