@@ -1,6 +1,7 @@
 // DATE: 02-07-2023
 /* PROGRAM: 23_SubArray Sum III (Kadanes Algorithm) - O(n)
-
+https://leetcode.com/problems/maximum-subarray/
+LC 53. Maximum Subarray
 INPUT
 10
 -4 1 3 -2 14 1 -8 -9 4 5
@@ -23,17 +24,18 @@ int main() {
     int n,curSum,maxSum,left,right=0;
 	int arr[100];
     cin >> n;
+	// start of soln
 	for (int i = 0; i<n; i++) {
 		cin>>arr[i];
-		curSum+=arr[i];
 		if(curSum<0){
-			curSum=0;
+            curSum=0;
 		}
+        curSum=curSum+arr[i];
 		if (curSum>maxSum) {
 			maxSum=curSum;
 		}
 		// maxSum = max(curSum,maxSum);
-	}
+	} // end of soln
 	// print maximum sum
 	cout<<maxSum<<endl;
     return 0;
