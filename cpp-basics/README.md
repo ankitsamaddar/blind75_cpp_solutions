@@ -29,3 +29,4 @@ Files with suffix `_std` uses _input.txt_ and _output.txt_ std input and output 
 | 21     | [SubArray Sum I - O(n^3)](<21_SubArray Sum I - O(n3).cpp>)                                          | 02-07-2023 |
 | 22     | [SubArray Sum II - O(n^2)](<22_SubArray Sum II - O(n2).cpp>)                                        | 02-07-2023 |
 | 23     | [SubArray Sum III (Kadanes Algorithm) - O(n)](<23_SubArray Sum III (Kadanes Algorithm) - O(n).cpp>) | 02-07-2023 |
+| 24 | [Pair Sum - Two Pointer](<24_Pair Sum - Two Pointer.cpp>) | 02-07-2023 | 
