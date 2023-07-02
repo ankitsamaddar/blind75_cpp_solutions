@@ -18,10 +18,12 @@ EXPLANATION
 
 */
 // @ankitsamaddar @2023
+#include <climits>
 #include <iostream>
 using namespace std;
 int main() {
-    int n,curSum,maxSum,left,right=0;
+    int n,curSum,left,right=0;
+	int maxSum = INT_MIN; // as max sum might be a negative number
 	int arr[100];
     cin >> n;
 	// start of soln
