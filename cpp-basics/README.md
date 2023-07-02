@@ -20,9 +20,10 @@ Files with suffix `_std` uses _input.txt_ and _output.txt_ std input and output 
 | 12     | [Nth Fibonacci Number](<12_Nth Fibonacci Number.cpp>)                         | 29-06-2023 |
 | 13     | [Alphabet Pattern I](<13_Alphabet Pattern I.cpp>)                             | 29-06-2023 |
 | 14     | [Linear Search](<14_Linear Search.cpp>)                                       | 29-06-2023 |
-| 15 | [Largest and Smallest Number](<15_Largest and Smallest Number.cpp>) | 30-06-2023 | 
-| 16 | [Binary Search](<16_Binary Search.cpp>) | 30-06-2023 | 
-| 17 | [Selection Sort](<17_Selection Sort.cpp>) | 30-06-2023 | 
-| 18 | [Bubble Sort](<18_Bubble Sort.cpp>) | 30-06-2023 | 
-| 19 | [Insertion Sort](<19_Insertion Sort.cpp>) | 30-06-2023 | 
-| 20 | [Inbuilt Sort](<20_Inbuilt Sort.cpp>) | 30-06-2023 | 
+| 15     | [Largest and Smallest Number](<15_Largest and Smallest Number.cpp>)           | 30-06-2023 |
+| 16     | [Binary Search](<16_Binary Search.cpp>)                                       | 30-06-2023 |
+| 17     | [Selection Sort](<17_Selection Sort.cpp>)                                     | 30-06-2023 |
+| 18     | [Bubble Sort](<18_Bubble Sort.cpp>)                                           | 30-06-2023 |
+| 19     | [Insertion Sort](<19_Insertion Sort.cpp>)                                     | 30-06-2023 |
+| 20     | [Inbuilt Sort](<20_Inbuilt Sort.cpp>)                                         | 30-06-2023 |
+| 21 | [SubArray Sum I - O(n^3)](<21_SubArray Sum I - O(n3).cpp>) | 02-07-2023 | 
