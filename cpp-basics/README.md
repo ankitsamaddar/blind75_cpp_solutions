@@ -35,3 +35,4 @@ Files with suffix `_std` uses _input.txt_ and _output.txt_ std input and output 
 | 27 | [Palindrome String](<27_Palindrome String.cpp>) | 03-07-2023 |
 | 28 | [Valid Palindrome LC-125](<28_Valid Palindrome LC-125.cpp>) | 03-07-2023 | 
 | 29 | [Remove Consecutive Duplicate Characters](<29_Remove Consecutive Duplicate Characters.cpp>) | 03-07-2023 | 
+| 30 | [Largest String](<30_Largest String.cpp>) | 03-07-2023 | 
