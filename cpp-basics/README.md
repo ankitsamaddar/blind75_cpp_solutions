@@ -32,4 +32,5 @@ Files with suffix `_std` uses _input.txt_ and _output.txt_ std input and output 
 | 24     | [Pair Sum - Two Pointer](<24_Pair Sum - Two Pointer.cpp>)                                               | 02-07-2023 |
 | 25     | [Character Array](<25_Character Array.cpp>)                                                             | 02-07-2023 |
 | 26     | [Reading Sentences - cin.get() & cin.getline()](<26_Reading Sentences - cin.get() & cin.getline().cpp>) | 02-07-2023 |
-| 27 | [Palindrome String](<27_Palindrome String.cpp>) | 03-07-2023 | 
+| 27 | [Palindrome String](<27_Palindrome String.cpp>) | 03-07-2023 |
+| 28 | [Valid Palindrome LC-125](<28_Valid Palindrome LC-125.cpp>) | 03-07-2023 | 
