@@ -24,7 +24,7 @@ using namespace std;
 int main() {
 	int n=0;
 	cin >> n;
-    string s[n];
+    string s[n]; // array can also be taken as vector
     cin.get();
 	for (int i = 0; i<n; i++) {
 		getline(cin,s[i]);
