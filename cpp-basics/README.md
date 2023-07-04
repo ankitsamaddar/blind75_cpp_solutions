@@ -37,3 +37,4 @@ Files with suffix `_std` uses _input.txt_ and _output.txt_ std input and output 
 | 29 | [Remove Consecutive Duplicate Characters](<29_Remove Consecutive Duplicate Characters.cpp>) | 03-07-2023 | 
 | 30 | [Largest String](<30_Largest String.cpp>) | 03-07-2023 | 
 | 31 | [String STL](<31_String STL.cpp>) | 04-07-2023 | 
+| 32 | [String Sorting](<32_String Sorting.cpp>) | 04-07-2023 | 
