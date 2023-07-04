@@ -38,3 +38,4 @@ Files with suffix `_std` uses _input.txt_ and _output.txt_ std input and output 
 | 30 | [Largest String](<30_Largest String.cpp>) | 03-07-2023 | 
 | 31 | [String STL](<31_String STL.cpp>) | 04-07-2023 | 
 | 32 | [String Sorting](<32_String Sorting.cpp>) | 04-07-2023 | 
+| 33 | [String Tokenization using strtok()](<33_String Tokenization using strtok().cpp>) | 05-07-2023 | 
