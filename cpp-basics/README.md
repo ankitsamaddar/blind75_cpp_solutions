@@ -40,3 +40,4 @@ Files with suffix `_std` uses _input.txt_ and _output.txt_ std input and output 
 | 32 | [String Sorting](<32_String Sorting.cpp>) | 04-07-2023 | 
 | 33 | [String Tokenization using strtok()](<33_String Tokenization using strtok().cpp>) | 05-07-2023 | 
 | 34 | [Implementing String Tokenizer](<34_Implementing String Tokenizer.cpp>) | 05-07-2023 | 
+| 35 | [Order Strings HR](<35_Order Strings HR.cpp>) | 05-07-2023 | 
