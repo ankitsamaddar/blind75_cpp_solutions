@@ -33,12 +33,12 @@ Files with suffix `_std` uses _input.txt_ and _output.txt_ std input and output 
 | 25     | [Character Array](<25_Character Array.cpp>)                                                             | 02-07-2023 |
 | 26     | [Reading Sentences - cin.get() & cin.getline()](<26_Reading Sentences - cin.get() & cin.getline().cpp>) | 02-07-2023 |
 | 27 | [Palindrome String](<27_Palindrome String.cpp>) | 03-07-2023 |
-| 28 | [Valid Palindrome LC-125](<28_Valid Palindrome LC-125.cpp>) | 03-07-2023 | 
-| 29 | [Remove Consecutive Duplicate Characters](<29_Remove Consecutive Duplicate Characters.cpp>) | 03-07-2023 | 
-| 30 | [Largest String](<30_Largest String.cpp>) | 03-07-2023 | 
-| 31 | [String STL](<31_String STL.cpp>) | 04-07-2023 | 
-| 32 | [String Sorting](<32_String Sorting.cpp>) | 04-07-2023 | 
-| 33 | [String Tokenization using strtok()](<33_String Tokenization using strtok().cpp>) | 05-07-2023 | 
-| 34 | [Implementing String Tokenizer](<34_Implementing String Tokenizer.cpp>) | 05-07-2023 | 
-| 35 | [Order Strings HR](<35_Order Strings HR.cpp>) | 05-07-2023 | 
-| 36 | [2D Array](<36_2D Array.cpp>) | Sa- 0-/15/ | 
+| 28 | [Valid Palindrome LC-125](<28_Valid Palindrome LC-125.cpp>) | 03-07-2023 |
+| 29 | [Remove Consecutive Duplicate Characters](<29_Remove Consecutive Duplicate Characters.cpp>) | 03-07-2023 |
+| 30 | [Largest String](<30_Largest String.cpp>) | 03-07-2023 |
+| 31 | [String STL](<31_String STL.cpp>) | 04-07-2023 |
+| 32 | [String Sorting](<32_String Sorting.cpp>) | 04-07-2023 |
+| 33 | [String Tokenization using strtok()](<33_String Tokenization using strtok().cpp>) | 05-07-2023 |
+| 34 | [Implementing String Tokenizer](<34_Implementing String Tokenizer.cpp>) | 05-07-2023 |
+| 35 | [Order Strings HR](<35_Order Strings HR.cpp>) | 05-07-2023 |
+| 36 | [2D Array](<36_2D Array.cpp>) | 15-07-2023 |

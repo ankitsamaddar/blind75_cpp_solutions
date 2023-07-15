@@ -1,4 +1,4 @@
-// DATE: Sa- 0-/15/
+// DATE: 15-07-2023
 /* PROGRAM: 36_2D Array
 2D Array INPUT AND OUTPUT for the specified dimensions where N rows and M columns are inputs. Also input the elements of the 2D Array and print the elements of the 2D array.
 INPUT
