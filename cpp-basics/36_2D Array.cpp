@@ -1,6 +1,6 @@
 // DATE: Sa- 0-/15/
 /* PROGRAM: 36_2D Array
-2D Array INPUT AND OUTPUT for the specified dimensions where N and M are inputs.
+2D Array INPUT AND OUTPUT for the specified dimensions where N rows and M columns are inputs. Also input the elements of the 2D Array and print the elements of the 2D array.
 INPUT
 4 5 1 2 1 2 1 3 1 3 1 3 5 4 5 4 5 1 1 1 1 1
 OUTPUT
