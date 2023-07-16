@@ -42,5 +42,6 @@ Files with suffix `_std` uses _input.txt_ and _output.txt_ std input and output 
 | 34     | [Implementing String Tokenizer](<34_Implementing String Tokenizer.cpp>)                                 | 05-07-2023 |
 | 35     | [Order Strings HR](<35_Order Strings HR.cpp>)                                                           | 05-07-2023 |
 | 36     | [2D Array](<36_2D Array.cpp>)                                                                           | 15-07-2023 |
-| 37 | [Wave Print 2D Array_std](<37_Wave_Print_2D_Array_std.cpp>) | 15-07-2023 | 
-| 38 | [Spiral Print 2D Array_std](<38_Spiral_Print_2D_Array_std.cpp>) | 15-07-2023 | 
+| 37 | [Wave Print 2D Array_std](<37_Wave_Print_2D_Array_std.cpp>) | 15-07-2023 |
+| 38 | [Spiral Print 2D Array_std](<38_Spiral_Print_2D_Array_std.cpp>) | 15-07-2023 |
+| 39 | [Piyush and Magical Park_std](<39_Piyush_and_Magical_Park_std.cpp>) | 16-07-2023 |
