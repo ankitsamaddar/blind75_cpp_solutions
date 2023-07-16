@@ -45,3 +45,4 @@ Files with suffix `_std` uses _input.txt_ and _output.txt_ std input and output 
 | 37 | [Wave Print 2D Array_std](<37_Wave_Print_2D_Array_std.cpp>) | 15-07-2023 |
 | 38 | [Spiral Print 2D Array_std](<38_Spiral_Print_2D_Array_std.cpp>) | 15-07-2023 |
 | 39 | [Piyush and Magical Park_std](<39_Piyush_and_Magical_Park_std.cpp>) | 16-07-2023 |
+| 40 | [Rotate Image(N x N Array)_std](<40_Rotate_Image-N_x_N_Array_std.cpp>) | 16-07-2023 |
