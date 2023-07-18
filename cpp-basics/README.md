@@ -50,3 +50,4 @@ Files with suffix `_std` uses _input.txt_ and _output.txt_ std input and output 
 | 42 | [2D Character Array_std](<42_2D_Character_Array_std.cpp>) | 17-07-2023 |
 | 43 | [Submatrices Sum ALL Approach_std](<43_Submatrices_Sum_ALL_Approach_std.cpp>) | 17-07-2023 |
 | 44 | [Sub-Matrix Sum Query_std](<44_Sub-Matrix_Sum_Query_std.cpp>) | 17-07-2023 | 
+| 45 | [Max Sub-Matrix Sum (in Row & Col Wise Sorted Matrix)_std](<45_Max_Sub-Matrix_Sum_(in_Row_&_Col_Wise_Sorted_Matrix)_std.cpp>) | 18-07-2023 | 
