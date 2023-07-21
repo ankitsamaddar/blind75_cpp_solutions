@@ -52,3 +52,4 @@ Files with suffix `_std` uses _input.txt_ and _output.txt_ std input and output 
 | 44 | [Sub-Matrix Sum Query_std](<44_Sub-Matrix_Sum_Query_std.cpp>) | 17-07-2023 | 
 | 45 | [Max Sub-Matrix Sum (in Row & Col Wise Sorted Matrix)_std](<45_Max_Sub-Matrix_Sum_(in_Row_&_Col_Wise_Sorted_Matrix)_std.cpp>) | 18-07-2023 | 
 | 46 | [Search Element (in Row & Col Wise Sorted Matrix)_std](<46_Search_Element_(in_Row_&_Col_Wise_Sorted_Matrix)_std.cpp>) | 18-07-2023 | 
+| 47 | [Pointers Reference Dereference](<47_Pointers_Reference_Dereference.cpp>) | 21-07-2023 | 
