@@ -15,16 +15,16 @@ int main() {
 	float y = 10.5;
 	cout << &y << endl;
 	char ch = 'A';
-	cout << &ch << endl;	// This will output A as cout will print the character at the address as
-												// << operator is overloaded
-	cout << (void*)&ch << endl;	 // Explicit Type Casting from char * to void *
+	cout << &ch << endl; // This will output A as cout will print the character at the address as
+						 // << operator is overloaded
+	cout << (void *)&ch << endl; // Explicit Type Casting from char * to void *
 
 	// Pointers Stores address of another variable
-	int* ptr;	 // Declare
-	ptr = &n;	 // Assignment
+	int *ptr; // Declare
+	ptr = &n; // Assignment
 
 	// Re-assign pointers
-	int* xptr;
+	int *xptr;
 	xptr = &n;
 	cout << &n << " = " << xptr << endl;
 	int m = 30;
@@ -33,8 +33,8 @@ int main() {
 
 	// Size of a pointer variable is always same to another pointer variable of any type as size of
 	// addresses are of fixed length
-	float* fptr;												// Pointer of type float
-	if (sizeof(ptr) == sizeof(fptr)) {	// a integer pointer has same size as a float pointer
+	float *fptr;					   // Pointer of type float
+	if (sizeof(ptr) == sizeof(fptr)) { // a integer pointer has same size as a float pointer
 		cout << "True" << endl;
 	}
 
@@ -51,16 +51,16 @@ int main() {
 	 * Address -> Bucket
 	 */
 
-	cout << *(&m) << " = " << *xptr << endl;	// Dereferencing
+	cout << *(&m) << " = " << *xptr << endl; // Dereferencing
 	cout << *(&ptr) << " = " << &(*ptr) << endl;
 
 	cout << *(xptr) + 1 << endl;
-	cout << *(xptr + 1) << endl;	// Garbage Value as we are Pointing to the next address after xptr
-																// which does not have any value
+	cout << *(xptr + 1) << endl; // Garbage Value as we are Pointing to the next address after xptr
+								 // which does not have any value
 
 	// DOUBLE POINTER
 	// Address to a pointer variable which in turn has address of another variable
-	int** dptr = &xptr;
+	int **dptr = &xptr;
 	cout << "address of xptr: " << *dptr << "\ndereference xptr: " << **dptr << endl;
 
 	return 0;
