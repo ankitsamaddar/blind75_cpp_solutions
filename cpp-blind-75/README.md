@@ -11,3 +11,4 @@ Files with suffix `_std` uses _input.txt_ and _output.txt_ as STDIN and STDOUT (
 | 03 | [Array - Contains Duplicate](<03_Array_-_Contains_Duplicate.cpp>) | 27-07-2023 |
 | 04 | [Array - Product of Array Except Self](<04_Array_-_Product_of_Array_Except_Self.cpp>) | 27-07-2023 |
 | 05 | [Array - Maximum Subarray](<05_Array_-_Maximum_Subarray.cpp>) | 28-07-2023 |
+| 06 | [Array - Maximum Product SubArray](<06_Array_-_Maximum_Product_SubArray.cpp>) | 28-July-2023 | 
