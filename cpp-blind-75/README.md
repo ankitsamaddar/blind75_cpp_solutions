@@ -8,3 +8,4 @@ Files with suffix `_std` uses _input.txt_ and _output.txt_ as STDIN and STDOUT (
 | :----: | --------- | :-----: |
 | 01 | [Array - Two Sum](<01_Array_-_Two_Sum.cpp>) | 27-07-2023 | 
 | 02 | [Array -  Best Time to Buy and Sell Stock](<02_Array_-__Best_Time_to_Buy_and_Sell_Stock.cpp>) | 27-07-2023 | 
+| 03 | [Array - Contains Duplicate](<03_Array_-_Contains_Duplicate.cpp>) | 27-07-2023 | 
