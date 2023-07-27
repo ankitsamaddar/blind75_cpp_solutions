@@ -7,3 +7,4 @@ Files with suffix `_std` uses _input.txt_ and _output.txt_ as STDIN and STDOUT (
 | SL NO. | PROGRAM NAME | DATE |
 | :----: | --------- | :-----: |
 | 01 | [Array - Two Sum](<01_Array_-_Two_Sum.cpp>) | 27-07-2023 | 
+| 02 | [Array -  Best Time to Buy and Sell Stock](<02_Array_-__Best_Time_to_Buy_and_Sell_Stock.cpp>) | 27-07-2023 | 
