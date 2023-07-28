@@ -18,3 +18,4 @@ Files with suffix `_std` uses _input.txt_ and _output.txt_ as STDIN and STDOUT (
 | 10 | [Array - Container With Most Water](<10_Array_-_Container_With_Most_Water.cpp>) | 28-July-2023 | 
 | 11 | [Binary - Sum of Two Integers](<11_Binary_-_Sum_of_Two_Integers.cpp>) | 28-July-2023 | 
 | 12 | [Binary - Number of 1 Bits](<12_Binary_-_Number_of_1_Bits.cpp>) | 28-July-2023 | 
+| 13 | [Binary - Counting Bits](<13_Binary_-_Counting_Bits.cpp>) | 28-July-2023 | 
