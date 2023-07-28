@@ -23,3 +23,4 @@ Files with suffix `_std` uses _input.txt_ and _output.txt_ as STDIN and STDOUT (
 | 15 | [Binary - Reverse Bits](<15_Binary_-_Reverse_Bits.cpp>) | 28-July-2023 | 
 | 16 | [Matrix - Set Matrix Zeroes](<16_Matrix_-_Set_Matrix_Zeroes.cpp>) | 29-July-2023 | 
 | 17 | [Matrix - Spiral Matrix](<17_Matrix_-_Spiral_Matrix.cpp>) | 29-July-2023 | 
+| 18 | [Matrix - Rotate Image](<18_Matrix_-_Rotate_Image.cpp>) | 29-July-2023 | 
