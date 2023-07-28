@@ -13,3 +13,4 @@ Files with suffix `_std` uses _input.txt_ and _output.txt_ as STDIN and STDOUT (
 | 05 | [Array - Maximum Subarray](<05_Array_-_Maximum_Subarray.cpp>) | 28-07-2023 |
 | 06 | [Array - Maximum Product SubArray](<06_Array_-_Maximum_Product_SubArray.cpp>) | 28-July-2023 | 
 | 07 | [Array - Find Minimum in Rotated Sorted Array](<07_Array_-_Find_Minimum_in_Rotated_Sorted_Array.cpp>) | 28-July-2023 | 
+| 08 | [Array - Search in Rotated Sorted Array](<08_Array_-_Search_in_Rotated_Sorted_Array.cpp>) | 28-July-2023 | 
