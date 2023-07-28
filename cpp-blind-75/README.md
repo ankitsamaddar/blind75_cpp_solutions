@@ -22,3 +22,4 @@ Files with suffix `_std` uses _input.txt_ and _output.txt_ as STDIN and STDOUT (
 | 14 | [Binary - Missing Number](<14_Binary_-_Missing_Number.cpp>) | 28-July-2023 | 
 | 15 | [Binary - Reverse Bits](<15_Binary_-_Reverse_Bits.cpp>) | 28-July-2023 | 
 | 16 | [Matrix - Set Matrix Zeroes](<16_Matrix_-_Set_Matrix_Zeroes.cpp>) | 29-July-2023 | 
+| 17 | [Matrix - Spiral Matrix](<17_Matrix_-_Spiral_Matrix.cpp>) | 29-July-2023 | 
