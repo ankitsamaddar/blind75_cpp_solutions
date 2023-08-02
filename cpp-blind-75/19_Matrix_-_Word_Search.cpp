@@ -51,13 +51,13 @@ class Solution {
 
 		if ( // Boundary Cond.
 			i < 0 || i >= board.size() || j < 0 || j >= board[0].size() ||
-			word.at(index) != board[i][j] || // Check If Char Present
+			word.at(index) != board[i][j] || // Main Check
 			matched_ch[i][j]				 // Index Already Visited
 		) {
 			return false;
 		}
 
-		matched_ch[i][j] = true; // Index Matched
+		matched_ch[i][j] = true;
 		if( // Condition checking if any neighbour is the next letter
             searchWord(i+1,j,index+1,board,word) ||
             searchWord(i-1,j,index+1,board,word) ||
@@ -65,7 +65,7 @@ class Solution {
             searchWord(i,j-1,index+1,board,word) ){
 			return true;
 		}
-		matched_ch[i][j] = false; // Index Not Matched
+		matched_ch[i][j] = false;
 
 		return false;
 	}
