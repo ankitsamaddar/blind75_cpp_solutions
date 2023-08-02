@@ -26,3 +26,4 @@ Files with suffix `_std` uses _input.txt_ and _output.txt_ as STDIN and STDOUT (
 | 18 | [Matrix - Rotate Image](<18_Matrix_-_Rotate_Image.cpp>) | 29-July-2023 | 
 | 19 | [Matrix - Word Search](<19_Matrix_-_Word_Search.cpp>) | 29-July-2023 | 
 | 20 | [Linked List - Reverse Linked List](<20_Linked_List_-_Reverse_Linked_List.cpp>) | 02-August-2023 | 
+| 21 | [Linked List - Linked List Cycle](<21_Linked_List_-_Linked_List_Cycle.cpp>) | 02-August-2023 | 
