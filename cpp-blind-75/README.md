@@ -28,3 +28,4 @@ Files with suffix `_std` uses _input.txt_ and _output.txt_ as STDIN and STDOUT (
 | 20 | [Linked List - Reverse Linked List](<20_Linked_List_-_Reverse_Linked_List.cpp>) | 02-August-2023 | 
 | 21 | [Linked List - Linked List Cycle](<21_Linked_List_-_Linked_List_Cycle.cpp>) | 02-August-2023 | 
 | 22 | [Linked List - Merge Two Sorted Lists](<22_Linked_List_-_Merge_Two_Sorted_Lists.cpp>) | 02-August-2023 | 
+| 23 | [Linked List - Merge k Sorted Lists](<23_Linked_List_-_Merge_k_Sorted_Lists.cpp>) | 02-Aug-2023 | 
