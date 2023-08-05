@@ -41,3 +41,4 @@ Files with suffix `_std` uses _input.txt_ and _output.txt_ as STDIN and STDOUT (
 | 33 | [String - Longest Palindromic Substring](<33_String_-_Longest_Palindromic_Substring.cpp>) | 05-Aug-2023 | 
 | 34 | [String - Palindromic Substrings](<34_String_-_Palindromic_Substrings.cpp>) | 05-Aug-2023 | 
 | 35 | [String - Encode and Decode Strings](<35_String_-_Encode_and_Decode_Strings.cpp>) | 05-Aug-2023 | 
+| 36 | [Heap - Top K Frequent Elements_Bucket Sort](<36_Heap_-_Top_K_Frequent_Elements_Bucket_Sort.cpp>) | 06-Aug-2023 | 
