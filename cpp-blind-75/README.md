@@ -40,3 +40,4 @@ Files with suffix `_std` uses _input.txt_ and _output.txt_ as STDIN and STDOUT (
 | 32 | [String - Valid Palindrome](<32_String_-_Valid_Palindrome.cpp>) | 05-Aug-2023 | 
 | 33 | [String - Longest Palindromic Substring](<33_String_-_Longest_Palindromic_Substring.cpp>) | 05-Aug-2023 | 
 | 34 | [String - Palindromic Substrings](<34_String_-_Palindromic_Substrings.cpp>) | 05-Aug-2023 | 
+| 35 | [String - Encode and Decode Strings](<35_String_-_Encode_and_Decode_Strings.cpp>) | 05-Aug-2023 | 
