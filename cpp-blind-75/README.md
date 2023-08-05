@@ -35,3 +35,4 @@ Files with suffix `_std` uses _input.txt_ and _output.txt_ as STDIN and STDOUT (
 | 27 | [String - Longest Repeating Character Replacement](<27_String_-_Longest_Repeating_Character_Replacement.cpp>) | 03-Aug-2023 | 
 | 28 | [String - Minimum Window Substring](<28_String_-_Minimum_Window_Substring.cpp>) | 03-Aug-2023 | 
 | 29 | [String - Valid Anagram](<29_String_-_Valid_Anagram.cpp>) | 05-Aug-2023 | 
+| 30 | [String - Group Anagrams](<30_String_-_Group_Anagrams.cpp>) | 05-Aug-2023 | 
