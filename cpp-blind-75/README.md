@@ -47,3 +47,4 @@ Files with suffix `_std` uses _input.txt_ and _output.txt_ as STDIN and STDOUT (
 | 39 | [Interval - Merge Intervals](<39_Interval_-_Merge_Intervals.cpp>) | 06-Aug-2023 | 
 | 40 | [Interval - Non-overlapping Intervals](<40_Interval_-_Non-overlapping_Intervals.cpp>) | 06-Aug-2023 | 
 | 41 | [Interval - Meeting Rooms](<41_Interval_-_Meeting_Rooms.cpp>) | 06-Aug-2023 | 
+| 42 | [Interval - Meeting Rooms II](<42_Interval_-_Meeting_Rooms_II.cpp>) | 06-Aug-2023 | 
