@@ -45,3 +45,4 @@ Files with suffix `_std` uses _input.txt_ and _output.txt_ as STDIN and STDOUT (
 | 37 | [Heap - Find Median from Data Stream](<37_Heap_-_Find_Median_from_Data_Stream.cpp>) | 06-Aug-2023 | 
 | 38 | [Interval - Insert Interval](<38_Interval_-_Insert_Interval.cpp>) | 06-Aug-2023 | 
 | 39 | [Interval - Merge Intervals](<39_Interval_-_Merge_Intervals.cpp>) | 06-Aug-2023 | 
+| 40 | [Interval - Non-overlapping Intervals](<40_Interval_-_Non-overlapping_Intervals.cpp>) | 06-Aug-2023 | 
