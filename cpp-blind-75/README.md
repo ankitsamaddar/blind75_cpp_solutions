@@ -58,3 +58,4 @@ Files with suffix `_std` uses _input.txt_ and _output.txt_ as STDIN and STDOUT (
 | 50 | [Tree - Construct Binary Tree from Preorder and Inorder Traversal](<50_Tree_-_Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal.cpp>) | 07-Aug-2023 | 
 | 51 | [Tree - Validate Binary Search Tree](<51_Tree_-_Validate_Binary_Search_Tree.cpp>) | 07-Aug-2023 | 
 | 52 | [Tree - Kth Smallest Element in a BST](<52_Tree_-_Kth_Smallest_Element_in_a_BST.cpp>) | 07-Aug-2023 | 
+| 53 | [Tree - Lowest Common Ancestor of BST](<53_Tree_-_Lowest_Common_Ancestor_of_BST.cpp>) | 07-Aug-2023 | 
