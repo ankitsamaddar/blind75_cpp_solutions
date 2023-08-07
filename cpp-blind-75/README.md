@@ -54,3 +54,4 @@ Files with suffix `_std` uses _input.txt_ and _output.txt_ as STDIN and STDOUT (
 | 46 | [Tree - Binary Tree Maximum Path Sum](<46_Tree_-_Binary_Tree_Maximum_Path_Sum.cpp>) | 07-Aug-2023 | 
 | 47 | [Tree - Binary Tree Level Order Traversal](<47_Tree_-_Binary_Tree_Level_Order_Traversal.cpp>) | 07-Aug-2023 | 
 | 48 | [Tree - Serialize and Deserialize Binary Tree](<48_Tree_-_Serialize_and_Deserialize_Binary_Tree.cpp>) | 07-Aug-2023 | 
+| 49 | [Tree - Subtree of Another Tree](<49_Tree_-_Subtree_of_Another_Tree.cpp>) | 07-Aug-2023 | 
