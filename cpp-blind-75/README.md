@@ -49,3 +49,4 @@ Files with suffix `_std` uses _input.txt_ and _output.txt_ as STDIN and STDOUT (
 | 41 | [Interval - Meeting Rooms](<41_Interval_-_Meeting_Rooms.cpp>) | 06-Aug-2023 | 
 | 42 | [Interval - Meeting Rooms II](<42_Interval_-_Meeting_Rooms_II.cpp>) | 06-Aug-2023 | 
 | 43 | [Tree - Maximum Depth of Binary Tree](<43_Tree_-_Maximum_Depth_of_Binary_Tree.cpp>) | 06-Aug-2023 | 
+| 44 | [Tree - Same Tree](<44_Tree_-_Same_Tree.cpp>) | 07-Aug-2023 | 
