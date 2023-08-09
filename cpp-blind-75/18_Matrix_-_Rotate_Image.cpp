@@ -3,20 +3,6 @@
 
 https://leetcode.com/problems/rotate-image/
 
-You are given an n x n 2D matrix representing an image, rotate the image by 90 degrees (clockwise).
-
-You have to rotate the image in-place, which means you have to modify the input 2D matrix directly.
-DO NOT allocate another 2D matrix and do the rotation.
-
-
-Example 1:
-Input: matrix = [[1,2,3],[4,5,6],[7,8,9]]
-Output: [[7,4,1],[8,5,2],[9,6,3]]
-
-Example 2:
-Input: matrix = [[5,1,9,11],[2,4,8,10],[13,3,6,7],[15,14,12,16]]
-Output: [[15,13,2,5],[14,3,4,1],[12,6,8,9],[16,7,10,11]]
-
 */
 // @ankitsamaddar @July_2023
 #include <iostream>
@@ -25,30 +11,40 @@ using namespace std;
 
 class Solution {
   public:
-	void rotate(vector<vector<int>> &matrix) {
-		int l = 0, r = matrix.size() - 1;
-		while (l < r) {
-			for (int i = 0; i < r - l; i++) {
-				int top = l, bottom = r;
-				// save topLeft
-				int topLeft = matrix[top][l + i];
+  void rotate(vector<vector<int>>& matrix) {
+    // set the pointers
+    int left = 0, right = matrix.size() - 1;
 
-				// move bottom left into top left
-				matrix[top][l + i] = matrix[bottom - i][l];
+    // boundaries
+    while (left < right) {
+      for (int i = 0; i < right - left; i++) {
+        // top and bottom pointers as left and right
+        int top = left, bottom = right;
 
-				// move bottom right to bottom left
-				matrix[bottom - i][l] = matrix[bottom][r - i];
+        // save the topLeft
+        // matrix[0][0]
+        int topLeft = matrix[top][left + i];
 
-				// move top right into bottom right
-				matrix[bottom][r - i] = matrix[top + i][r];
+        // replace topLeft with bottomLeft
+        // matrix[0][0] = matrix[2][0]
+        matrix[top][left + i] = matrix[bottom - i][left];
 
-				// move top left to top right
-				matrix[top + i][r] = topLeft;
-			}
-			r--;
-			l++;
-		}
-	}
+        // replace bottomLeft with bottomRight
+        // matrix[2][0] = matrix[2][2]
+        matrix[bottom - i][left] = matrix[bottom][right - i];
+
+        // replace bottomRight with topRight
+        // matrix[2][2] = matrix[0][2]
+        matrix[bottom][right - i] = matrix[top + i][right];
+
+        // replace topRight with topLeft
+        // matrix[0][2] = matrix[0][0]
+        matrix[top + i][right] = topLeft;
+      }
+      right--;
+      left++;
+    }
+  }
 };
 
 int main() {

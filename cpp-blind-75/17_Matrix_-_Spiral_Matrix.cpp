@@ -3,15 +3,6 @@
 
 https://leetcode.com/problems/spiral-matrix/
 
-Given an m x n matrix, return all elements of the matrix in spiral order.
-
-Example 1:
-Input: matrix = [[1,2,3],[4,5,6],[7,8,9]]
-Output: [1,2,3,6,9,8,7,4,5]
-
-Example 2:
-Input: matrix = [[1,2,3,4],[5,6,7,8],[9,10,11,12]]
-Output: [1,2,3,4,8,12,11,10,9,5,6,7]
 
 */
 // @ankitsamaddar @July_2023
@@ -21,37 +12,35 @@ using namespace std;
 
 class Solution {
   public:
-	vector<int> spiralOrder(vector<vector<int>> &matrix) {
-		vector<int> res;
-		int left = 0, right = matrix[0].size(), top = 0, bottom = matrix.size();
-		while (left < right and top < bottom) {
-			// Insert top row
-			for (int i = left; i < right; i++) {
-				res.push_back(matrix[top][i]);
-			}
-			top++;
-			// Insert right column
-			for (int i = top; i < bottom; i++) {
-				res.push_back(matrix[i][right - 1]);
-			}
-			right--;
+  vector<int> spiralOrder(vector<vector<int>>& matrix) {
+    // result vector
+    vector<int> res;
 
-			if (!(left < right and top < bottom)) {
-				break;
-			}
-			// Insert Bottom row
-			for (int i = right - 1; i >= left; i--) {
-				res.push_back(matrix[bottom - 1][i]);
-			}
-			bottom--;
-			// Insert Left row
-			for (int i = bottom - 1; i >= top; i--) {
-				res.push_back(matrix[i][left]);
-			}
-			left++;
-		}
-		return res;
-	}
+    // set the pointers
+    int left = 0, right = matrix[0].size() - 1;
+    int top = 0, bottom = matrix.size() - 1;
+
+    while (left <= right and top <= bottom) {
+      // top row
+      for (int i = left; i <= right; i++) res.push_back(matrix[top][i]);
+      top++;
+      // right column
+      for (int i = top; i <= bottom; i++) res.push_back(matrix[i][right]);
+      right--;
+
+      // bottom row
+      if (top <= bottom) {
+        for (int i = right; i >= left; i--) res.push_back(matrix[bottom][i]);
+        bottom--;
+      }
+      // left column
+      if (left <= right) {
+        for (int i = bottom; i >= top; i--) res.push_back(matrix[i][left]);
+        left++;
+      }
+    }
+    return res;
+  }
 };
 
 int main() {

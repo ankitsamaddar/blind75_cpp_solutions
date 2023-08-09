@@ -3,16 +3,6 @@
 
 https://leetcode.com/problems/sum-of-two-integers/
 
-Given two integers a and b, return the sum of the two integers without using the operators + and -.
-
-Example 1:
-Input: a = 1, b = 2
-Output: 3
-
-Example 2:
-Input: a = 2, b = 3
-Output: 5
-
 */
 // @ankitsamaddar @July_2023
 #include <iostream>
@@ -21,14 +11,23 @@ using namespace std;
 
 class Solution {
   public:
-	int getSum(int a, int b) {
-		while (b != 0) {
-			unsigned int carry = (a & b); // using unsigned as leftShift not possible for -ve number
-			a = a ^ b;
-			b = carry << 1;
-		}
-		return a;
-	}
+  int getSum(int a, int b) {
+    while (b != 0) {  // continue till no carry left or b=0
+
+      // bitwise AND to get carry of each bit where both bit=1
+      unsigned int c = a & b;
+
+      // bitwise XOR to find sum without carry where any one bit=1
+      a = a ^ b;
+
+      // carry is left shifted by one and stored in b
+      // as in binary addition carry is always added to the next bit
+
+      b = c << 1;  // carry added in next iteration
+    }
+
+    return a;  // answer stored in a after adding the carries
+  }
 };
 
 int main() {

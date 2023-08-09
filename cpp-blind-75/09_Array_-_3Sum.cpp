@@ -38,51 +38,52 @@ using namespace std;
 
 class Solution {
   public:
-	vector<vector<int>> threeSum(vector<int> &nums) {
-		vector<vector<int>> res; // Declare 2D vector result
+  vector<vector<int>> threeSum(vector<int>& nums) {
+    // a+b+c = 0 ; a!=b!=c
+    // sort the array
+    sort(nums.begin(), nums.end());
 
-		sort(nums.begin(), nums.end()); // sort nums array
-		for (int i = 0; i < nums.size(); i++) {
-			int a = nums[i];
-			if (i > 0 and a == nums[i - 1]) { // to skip duplicate
-				continue;
-			}
-			int l = i + 1, r = nums.size() - 1; // two pointers left and right
-			while (l < r) {
-				int threeSum = a + nums[l] + nums[r];
-				// we are searching for triplet sums which equals to zero
-				// sorted array so if the number is less than 0 move left(+1) or
-				// if number is greater than 0 move right(-1)
-				// else the sum is 0 so push it to the result array
-				if (threeSum > 0) {
-					r--;
-				} else if (threeSum < 0) {
-					l++;
-				} else {
-					res.push_back({a, nums[l], nums[r]}); // a + b (nums[l]) + c (nums[r])
-					l++;
-					while (nums[l] == nums[l - 1] and l < r) { // to skip duplicates from left side
-						l++;
-					}
-				}
-			}
-		}
-		return res;
-	}
+    vector<vector<int>> result;
+
+    // iterate the array
+    for (int i = 0; i < nums.size(); i++) {
+      // Skip duplicates for i
+      if (i > 0 and nums[i] == nums[i - 1]) continue;
+
+      int left  = i + 1;            // next element
+      int right = nums.size() - 1;  // last element
+
+      while (left < right) {
+        // calculate possible 3sums using 2 pointers
+        int c3sum = nums[i] + nums[left] + nums[right];
+
+        if (c3sum > 0)
+          right--;
+        else if (c3sum < 0)
+          left++;
+        else {  // 3sum is 0 so save it
+          result.push_back({nums[i], nums[left], nums[right]});
+          left++;  // next element from left
+
+          // skip all duplicates after next element from left
+          while (nums[left] == nums[left - 1] and left < right) left++;
+        }
+      }
+    }
+    return result;
+  }
 };
-
 int main() {
+  int nums[] = {-1, 0, 1, 2, -1, -4};
+  vector<int> v(nums, nums + sizeof(nums) / sizeof(int));
+  Solution sol;
+  vector<vector<int>> res = sol.threeSum(v);
 
-	int nums[] = {-1, 0, 1, 2, -1, -4};
-	vector<int> v(nums, nums + sizeof(nums) / sizeof(int));
-	Solution sol;
-	vector<vector<int>> res = sol.threeSum(v);
-
-	for (const auto &row : res) {
-		for (int num : row) {
-			std::cout << num << " ";
-		}
-		std::cout << std::endl;
-	}
-	return 0;
+  for (const auto &row : res) {
+    for (int num : row) {
+      std::cout << num << " ";
+    }
+    std::cout << std::endl;
+  }
+  return 0;
 }

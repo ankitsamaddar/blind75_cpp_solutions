@@ -3,21 +3,7 @@
 
 https://leetcode.com/problems/set-matrix-zeroes/
 
-Given an m x n integer matrix matrix, if an element is 0, set its entire row and column to 0's.
-
-You must do it in place.
-
-
-
-Example 1:
-Input: matrix = [[1,1,1],[1,0,1],[1,1,1]]
-Output: [[1,0,1],[0,0,0],[1,0,1]]
-
-Example 2:
-Input: matrix = [[0,1,2,0],[3,4,5,2],[1,3,1,5]]
-Output: [[0,0,0,0],[0,4,5,0],[0,3,1,0]]
-
-*/
+G*/
 // @ankitsamaddar @July_2023
 #include <iostream>
 #include <vector>
@@ -25,43 +11,47 @@ using namespace std;
 
 class Solution {
   public:
-	void setZeroes(vector<vector<int>> &matrix) {
-		int rows = matrix.size(), col = matrix[0].size();
-		bool rowZero = false;
+  void setZeroes(vector<vector<int>>& matrix) {
+    int rows = matrix.size(), cols = matrix[0].size();
 
-		// Determine Rows/Column to be zeroed
-		for (int r = 0; r < rows; r++) {
-			for (int c = 0; c < col; c++) {
-				if (matrix[r][c] == 0) {
-					matrix[0][c] = 0;
-					if (r > 0)
-						matrix[r][0] = 0;
-					else
-						rowZero = true;
-				}
-			}
-		}
-		// Zero the columns starting from the second row and second column
-		for (int r = 1; r < rows; r++) {
-			for (int c = 1; c < col; c++) {
-				if (matrix[0][c] == 0 or matrix[r][0] == 0) {
-					matrix[r][c] = 0;
-				}
-			}
-		}
-		// zero the first row
-		if (matrix[0][0] == 0) {
-			for (int r = 0; r < rows; r++) {
-				matrix[r][0] = 0;
-			}
-		}
-		// zero the first column
-		if (rowZero) {
-			for (int c = 0; c < col; c++) {
-				matrix[0][c] = 0;
-			}
-		}
-	}
+    bool fillFirstRow = false;
+    bool fillFirstCol = false;
+
+    // mark the matrix to add zero
+    for (int r = 0; r < rows; r++) {
+      for (int c = 0; c < cols; c++) {
+        if (matrix[r][c] == 0) {
+          // set the flags to handle first row & column
+          if (r == 0) fillFirstRow = true;
+          if (c == 0) fillFirstCol = true;
+
+          // mark first column of match to 0
+          matrix[0][c] = 0;
+          // mark first rows of match to 0
+          matrix[r][0] = 0;
+        }
+      }
+    }
+
+    // add zeros to the internal matrix (except the first row & column)
+    for (int r = 1; r < rows; r++) {
+      for (int c = 1; c < cols; c++) {
+        // using mark to add zeros
+        if (matrix[r][0] == 0 || matrix[0][c] == 0) {
+          matrix[r][c] = 0;
+        }
+      }
+    }
+
+    // add zero to the first column
+    if (fillFirstCol)
+      for (int r = 1; r < rows; r++) matrix[r][0] = 0;
+
+    // add zero to the first row
+    if (fillFirstRow) {
+      for (int c = 0; c < cols; c++) matrix[0][c] = 0;
+    }
+  }
 };
 
 int main() {

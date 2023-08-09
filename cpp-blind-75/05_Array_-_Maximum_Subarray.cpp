@@ -26,16 +26,17 @@ Explanation: The sub-array [5,4,-1,7,8] has the largest sum 23.
 using namespace std;
 
 class Solution {
-  public:
-	int maxSubArray(vector<int> &nums) {
-		int curSum = 0;
-		int maxSum = INT_MIN;
-		for (auto cur : nums) {
-			curSum = max(cur, curSum + cur);
-			maxSum = max(curSum, maxSum);
-		}
-		return maxSum;
-	}
+    public:
+    int maxSubArray(vector<int>& nums) {
+        int sum    = 0;
+        int maxSum = INT_MIN;
+
+        for (int i : nums) {
+            sum    = max(i, sum + i);   // max sum till i
+            maxSum = max(sum, maxSum);  // max sum so far
+        }
+        return maxSum;
+    }
 };
 
 int main() {

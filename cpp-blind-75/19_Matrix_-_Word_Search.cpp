@@ -3,23 +3,6 @@
 
 https://leetcode.com/problems/word-search/
 
-Given an m x n grid of characters board and a string word, return true if word exists in the grid.
-
-The word can be constructed from letters of sequentially adjacent cells, where adjacent cells are
-horizontally or vertically neighboring. The same letter cell may not be used more than once.
-
-Example 1:
-Input: board = [["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]], word = "ABCCED"
-Output: true
-
-Example 2:
-Input: board = [["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]], word = "SEE"
-Output: true
-
-Example 3:
-Input: board = [["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]], word = "ABCB"
-Output: false
-
 */
 // @ankitsamaddar @July_2023
 #include <iostream>
@@ -70,6 +53,56 @@ class Solution {
 		return false;
 	}
 };
+
+// Solution 2
+class Solution {
+  bool dfs(vector<vector<char>>& board, int i, int j, const char* word) {
+    // this function will dfs search each element for match
+    // uses recursion and then bactracks to get answer
+
+    // word is a pointer to character array, so word+1 is the next charracter
+
+    // word empty
+    if (*word == '\0') return true;
+
+    // limits reached
+    if (i < 0 || i >= board.size() || j < 0 || j >= board[0].size() || board[i][j] != *word)
+      return false;
+
+    char c      = board[i][j];  // store current element
+    board[i][j] = '\0';         // mark as visited
+
+    // dfs in four directions
+    // the recursion continues till last element of matrix
+    // and backtracks to [i][j]
+    // final result is stored in res
+    bool res =
+        // search right
+        dfs(board, i + 1, j, word + 1) ||
+        // search left
+        dfs(board, i - 1, j, word + 1) ||
+        // search down
+        dfs(board, i, j + 1, word + 1) ||
+        // search up
+        dfs(board, i, j - 1, word + 1);
+
+    // restore current element
+    board[i][j] = c;
+
+    return res;
+  }
+
+  public:
+  bool exist(vector<vector<char>>& board, string word) {
+    for (int i = 0; i < board.size(); i++) {
+      for (int j = 0; j < board[0].size(); j++) {
+        if (dfs(board, i, j, word.c_str())) return true;
+      }
+    }
+    return false;
+  }
+};
+
 
 int main() {
 	vector<vector<char>> board = {{'A', 'B', 'C', 'E'}, {'S', 'F', 'C', 'S'}, {'A', 'D', 'E', 'E'}};

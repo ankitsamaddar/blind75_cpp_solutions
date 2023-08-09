@@ -3,21 +3,6 @@
 
 https://leetcode.com/problems/maximum-product-subarray/
 
-Given an integer array nums, find a sub-array that has the largest product, and return the product.
-
-The test cases are generated so that the answer will fit in a 32-bit integer.
-
-
-Example 1:
-Input: nums = [2,3,-2,4]
-Output: 6
-Explanation: [2,3] has the largest product 6.
-
-Example 2:
-Input: nums = [-2,0,-1]
-Output: 0
-Explanation: The result cannot be 2, because [-2,-1] is not a sub-array.
-
 */
 // @ankitsamaddar @July_2023
 #include <algorithm>
@@ -50,6 +35,28 @@ class Solution {
 		return res;
 	}
 };
+
+/* Solution 2 - fastest - using left and right product
+
+class Solution {
+public:
+    int maxProduct(vector<int>& nums) {
+      int right_p = 1, left_p = 1, maxProduct = INT_MIN;
+
+      for(int i = 0;i<nums.size();i++){
+        if(left_p==0) left_p=1;
+        if(right_p==0) right_p=1;
+
+        left_p *= nums[i];
+        right_p *= nums[nums.size()-i-1];
+
+        maxProduct = max({left_p,right_p,maxProduct});
+      }
+      return maxProduct;
+    }
+};
+
+*/
 
 int main() {
 	int nums[] = {-2, 0, -1};

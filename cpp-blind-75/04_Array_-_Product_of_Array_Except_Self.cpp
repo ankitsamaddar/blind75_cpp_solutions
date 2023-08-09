@@ -25,21 +25,26 @@ Output: [0,0,9,0,0]
 using namespace std;
 
 class Solution {
-  public:
-	vector<int> productExceptSelf(vector<int> &nums) {
-		vector<int> res(nums.size());
-		int n = nums.size();
-		int prefix = 1, postfix = 1;
-		for (int i = 0; i < n; i++) {
-			res[i] = prefix;
-			prefix *= nums[i];
-		}
-		for (int i = n - 1; i >= 0; i--) {
-			res[i] *= postfix;
-			postfix *= nums[i];
-		}
-		return res;
-	}
+    public:
+    vector<int> productExceptSelf(vector<int>& nums) {
+        vector<int> res(nums.size());
+
+        // Prefix product - product of all elements before i
+        int prefix = 1;
+        for (int i = 0; i < nums.size(); i++) {
+            res[i] = prefix;  // Store prefix product
+            prefix = prefix * nums[i];
+        }
+
+        // Postfix product - product of all elements after i
+        int postfix = 1;
+        for (int i = nums.size() - 1; i >= 0; i--) {
+            res[i]  = res[i] * postfix;  // multiply postfix product to prefix product values
+            postfix = postfix * nums[i];
+        }
+
+        return res;
+    }
 };
 
 int main() {
