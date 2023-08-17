@@ -1,3 +1,17 @@
-# Cpp-Java & DSA
+# Cpp-Java & DSA Learning  <!-- omit from toc -->
 
- All codes files and writeups when learning coding.
+ All codes files and write-ups when learning coding.
+
+## Table Of Contents <!-- omit from toc -->
+
+- [cpp-basics](#cpp-basics)
+- [cpp-blind-75](#cpp-blind-75)
+
+
+## [cpp-basics](./cpp-basics)
+
+The [cpp-basics](./cpp-basics/README.md) contains basic programs learning C++ language.
+
+## [cpp-blind-75](./cpp-blind-75/)
+
+The [cpp-blind-75](./cpp-blind-75/README.md) contains a collection of solutions to 75 LeetCode questions from [NeetCode YT](https://docs.google.com/spreadsheets/d/1A2PaQKcdwO_lwxz9bAnxXnIQayCouZP6d-ENrBz_NXc/edit?usp=sharing) in C++ language.
