@@ -1,6 +1,6 @@
-# Cpp-Java & DSA Learning  <!-- omit from toc -->
+# cpp_solutions  <!-- omit from toc -->
 
- All codes files and write-ups when learning coding.
+ Cpp solutions to some coding problems.
 
 ## Table Of Contents <!-- omit from toc -->
 
