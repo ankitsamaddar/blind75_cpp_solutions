@@ -104,3 +104,4 @@ Leetcode links for the programs at the beginning of each file.
 | 68 | Longest Common Subsequence | 🟡Medium | [1143](https://leetcode.com/problems/longest-common-subsequence) | [77](https://www.lintcode.com/problem/77) | 14-Aug-2023<br>[Cpp](<./cpp-blind-75/68_longest-common-subsequence.cpp>) |   |
 | 69 | Word Break | 🟡Medium | [139](https://leetcode.com/problems/word-break) | [107](https://www.lintcode.com/problem/107) | 14-Aug-2023<br>[Cpp](<./cpp-blind-75/69_word-break.cpp>) |   |
 | 70 | Combination Sum | 🟡Medium | [39](https://leetcode.com/problems/combination-sum) | [135](https://www.lintcode.com/problem/135) | 14-Aug-2023<br>[Cpp](<./cpp-blind-75/70_combination-sum.cpp>) |   |
+| 71 | House Robber | 🟡Medium | [198](https://leetcode.com/problems/house-robber) | [392](https://www.lintcode.com/problem/392) | 14-Aug-2023<br>[Cpp](<./cpp-blind-75/71_house-robber.cpp>) |   |
