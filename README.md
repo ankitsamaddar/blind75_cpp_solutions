@@ -107,3 +107,4 @@ Leetcode links for the programs at the beginning of each file.
 | 71 | House Robber | 🟡Medium | [198](https://leetcode.com/problems/house-robber) | [392](https://www.lintcode.com/problem/392) | 14-Aug-2023<br>[Cpp](<./cpp-blind-75/71_house-robber.cpp>) |   |
 | 72 | House Robber II | 🟡Medium | [213](https://leetcode.com/problems/house-robber-ii) | [534](https://www.lintcode.com/problem/534) | 14-Aug-2023<br>[Cpp](<./cpp-blind-75/72_house-robber-ii.cpp>) |   |
 | 73 | Decode Ways | 🟡Medium | [91](https://leetcode.com/problems/decode-ways) | [512](https://www.lintcode.com/problem/512) | 15-Aug-2023<br>[Cpp](<./cpp-blind-75/73_decode-ways.cpp>) |   |
+| 74 | Unique Paths | 🟡Medium | [62](https://leetcode.com/problems/unique-paths) | [114](https://www.lintcode.com/problem/114) | 15-Aug-2023<br>[Cpp](<./cpp-blind-75/74_unique-paths.cpp>) |   |
