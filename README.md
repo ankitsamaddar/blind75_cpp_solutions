@@ -101,4 +101,5 @@ Leetcode links for the programs at the beginning of each file.
 | 65 | Climbing Stairs | 🟢Easy | [70](https://leetcode.com/problems/climbing-stairs) | [111](https://www.lintcode.com/problem/111) | 13-Aug-2023<br>[Cpp](<./cpp-blind-75/65_climbing-stairs.cpp>) |   |
 | 66 | Coin Change | 🟡Medium | [322](https://leetcode.com/problems/coin-change) | [669](https://www.lintcode.com/problem/669) | 14-Aug-2023<br>[Cpp](<./cpp-blind-75/66_coin-change.cpp>) |   |
 | 67 | Longest Increasing Subsequence | 🟡Medium | [300](https://leetcode.com/problems/longest-increasing-subsequence) | [76](https://www.lintcode.com/problem/76) | 14-Aug-2023<br>[Cpp](<./cpp-blind-75/67_longest-increasing-subsequence.cpp>) |   |
-| 68 | Longest Common Subsequence | 🟡Medium | [1143](https://leetcode.com/problems/longest-common-subsequence) | [77](https://www.lintcode.com/problem/77) | 09-Aug-2023<br>[Cpp](<./cpp-blind-75/68_longest-common-subsequence.cpp>) |   |
+| 68 | Longest Common Subsequence | 🟡Medium | [1143](https://leetcode.com/problems/longest-common-subsequence) | [77](https://www.lintcode.com/problem/77) | 14-Aug-2023<br>[Cpp](<./cpp-blind-75/68_longest-common-subsequence.cpp>) |   |
+| 69 | Word Break | 🟡Medium | [139](https://leetcode.com/problems/word-break) | [107](https://www.lintcode.com/problem/107) | 14-Aug-2023<br>[Cpp](<./cpp-blind-75/69_word-break.cpp>) |   |
