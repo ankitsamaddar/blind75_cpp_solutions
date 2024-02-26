@@ -23,18 +23,22 @@ class Solution {
     // define the four possible directions to move
     vector<pair<int, int>> directions   = {{-1, 0}, {0, 1}, {1, 0}, {0, -1}};
 
+    // Inline function to find Island
     function<void(int, int)> findIsland = [&](int x, int y) {
       visited[x][y] = true;
       // for each direction, move the next cell
       for (auto [dx, dy] : directions) {
+        // set directions and do dfs in those directions
         int nx = x + dx, ny = y + dy;
-        // within grid of dfs
+        // do dfs if within bounds and not already visited
         if (0 <= nx && nx < row && 0 <= ny && ny < col && grid[nx][ny] == '1' && !visited[nx][ny]) {
           findIsland(nx, ny);
         }
       }
     };
     // for each cell do dfs
+    // if cell is 1 and not already visited
+    // it is a island so increase count
     for (int x = 0; x < row; ++x) {
       for (int y = 0; y < col; ++y) {
         if (grid[x][y] == '1' && !visited[x][y]) {
