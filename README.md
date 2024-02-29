@@ -88,3 +88,4 @@ Leetcode links for the programs at the beginning of each file.
 | 58 | Course Schedule | 🟡Medium | [207](https://leetcode.com/problems/course-schedule) | [615](https://www.lintcode.com/problem/615) | 09-Aug-2023<br>[Cpp](<./cpp-blind-75/58_course-schedule.cpp>) |   |
 | 59 | Pacific Atlantic Water Flow | 🟡Medium | [417](https://leetcode.com/problems/pacific-atlantic-water-flow) | [778](https://www.lintcode.com/problem/778) | 12-Aug-2023<br>[Cpp](<./cpp-blind-75/59_pacific-atlantic-water-flow.cpp>) |   |
 | 60 | Number of Islands | 🟡Medium | [200](https://leetcode.com/problems/number-of-islands) | [433](https://www.lintcode.com/problem/433) | 09-Aug-2023<br>[Cpp](<./cpp-blind-75/60_number-of-islands.cpp>) |   |
+| 61 | Longest Consecutive Sequence | 🟡Medium | [128](https://leetcode.com/problems/longest-consecutive-sequence) | [124](https://www.lintcode.com/problem/124) | 09-Aug-2023<br>[Cpp](<./cpp-blind-75/61_longest-consecutive-sequence.cpp>) |   |
