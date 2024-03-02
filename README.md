@@ -1,11 +1,14 @@
-# cpp_solutions  
+# cpp_solutions
 
  Cpp solutions to some coding problems.
 
-## Table Of Contents 
+## Table Of Contents
 
-- [cpp-basics](#cpp-basics)
-- [cpp-blind-75](#cpp-blind-75)
+- [cpp\_solutions](#cpp_solutions)
+  - [Table Of Contents](#table-of-contents)
+  - [cpp-basics](#cpp-basics)
+  - [cpp-blind-75](#cpp-blind-75)
+  - [Graph](#graph)
 
 
 ## [cpp-basics](./cpp-basics)
@@ -81,4 +84,5 @@ Leetcode links for the programs at the beginning of each file.
 
 | SL No | Program Name | Difficulty | Leetcode | Lintcode | Solution | Notes |
 | :----: | --------- | ----- | :-----: | :-----: | :-----: | ----- |
-| 57 | Clone Graph | 🟡Medium | [133](https://leetcode.com/problems/clone-graph) | [137](https://www.lintcode.com/problem/137) | 09-Aug-2023<br><br>[Cpp](<./cpp-blind-75/57_clone-graph.cpp>) |   |
+| 57 | Clone Graph | 🟡Medium | [133](https://leetcode.com/problems/clone-graph) | [137](https://www.lintcode.com/problem/137) | 09-Aug-2023<br>[Cpp](<./cpp-blind-75/57_clone-graph.cpp>) |   |
+| 58 | Course Schedule | 🟡Medium | [207](https://leetcode.com/problems/course-schedule) | [615](https://www.lintcode.com/problem/615) | 09-Aug-2023<br>[Cpp](<./cpp-blind-75/58_course-schedule.cpp>) |   |
