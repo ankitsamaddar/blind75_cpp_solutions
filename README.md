@@ -90,3 +90,4 @@ Leetcode links for the programs at the beginning of each file.
 | 60 | Number of Islands | 🟡Medium | [200](https://leetcode.com/problems/number-of-islands) | [433](https://www.lintcode.com/problem/433) | 12-Aug-2023<br>[Cpp](<./cpp-blind-75/60_number-of-islands.cpp>) |   |
 | 61 | Longest Consecutive Sequence | 🟡Medium | [128](https://leetcode.com/problems/longest-consecutive-sequence) | [124](https://www.lintcode.com/problem/124) | 12-Aug-2023<br>[Cpp](<./cpp-blind-75/61_longest-consecutive-sequence.cpp>) |   |
 | 62 | Alien Dictionary | 🔴Hard | 🔒 [269](https://leetcode.com/problems/alien-dictionary) | [892](https://www.lintcode.com/problem/892) | 13-Aug-2023<br>[Cpp](<./cpp-blind-75/62_alien-dictionary.cpp>) |   |
+| 63 | Graph Valid Tree | 🟡Medium | 🔒 [261](https://leetcode.com/problems/graph-valid-tree) | [178](https://www.lintcode.com/problem/178) | 13-Aug-2023<br>[Cpp](<./cpp-blind-75/63_graph-valid-tree.cpp>) |   |
