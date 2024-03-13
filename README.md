@@ -9,6 +9,7 @@
   - [cpp-basics](#cpp-basics)
   - [cpp-blind-75](#cpp-blind-75)
   - [Graph](#graph)
+  - [Dynamic Programming](#dynamic-programming)
 
 
 ## [cpp-basics](./cpp-basics)
@@ -92,3 +93,9 @@ Leetcode links for the programs at the beginning of each file.
 | 62 | Alien Dictionary | 🔴Hard | 🔒 [269](https://leetcode.com/problems/alien-dictionary) | [892](https://www.lintcode.com/problem/892) | 13-Aug-2023<br>[Cpp](<./cpp-blind-75/62_alien-dictionary.cpp>) |   |
 | 63 | Graph Valid Tree | 🟡Medium | 🔒 [261](https://leetcode.com/problems/graph-valid-tree) | [178](https://www.lintcode.com/problem/178) | 13-Aug-2023<br>[Cpp](<./cpp-blind-75/63_graph-valid-tree.cpp>) |   |
 | 64 | Number of Connected Components in an Undirected Graph | 🟡Medium | 🔒 [323](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph) | [3651](https://www.lintcode.com/problem/3651) | 13-Aug-2023<br>[Cpp](<./cpp-blind-75/64_number-of-connected-components-in-an-undirected-graph.cpp>) |   |
+
+## Dynamic Programming
+
+| SL No | Program Name | Difficulty | Leetcode | Lintcode | Solution | Notes |
+| :----: | --------- | ----- | :-----: | :-----: | :-----: | ----- |
+| 65 | Climbing Stairs | 🟢Easy | [70](https://leetcode.com/problems/climbing-stairs) | [111](https://www.lintcode.com/problem/111) | 13-Aug-2023<br>[Cpp](<./cpp-blind-75/65_climbing-stairs.cpp>) |   |
