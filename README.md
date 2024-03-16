@@ -99,3 +99,4 @@ Leetcode links for the programs at the beginning of each file.
 | SL No | Program Name | Difficulty | Leetcode | Lintcode | Solution | Notes |
 | :----: | --------- | ----- | :-----: | :-----: | :-----: | ----- |
 | 65 | Climbing Stairs | 🟢Easy | [70](https://leetcode.com/problems/climbing-stairs) | [111](https://www.lintcode.com/problem/111) | 13-Aug-2023<br>[Cpp](<./cpp-blind-75/65_climbing-stairs.cpp>) |   |
+| 66 | Coin Change | 🟡Medium | [322](https://leetcode.com/problems/coin-change) | [669](https://www.lintcode.com/problem/669) | 14-Aug-2023<br>[Cpp](<./cpp-blind-75/66_coin-change.cpp>) |   |
