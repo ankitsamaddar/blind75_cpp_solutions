@@ -23,17 +23,14 @@
     - [Tree](#tree)
     - [Graph](#graph)
     - [Dynamic Programming](#dynamic-programming)
-
 </details>
 <details>
 <summary>
 
 ## [cpp-basics](./cpp-basics)
-
 </summary>
-<p>
+
 The [cpp-basics](./cpp-basics/README.md) contains basic programs learning C++ language.
-</p>
 </details>
 
 ## [cpp-blind-75](./cpp-blind-75/)
