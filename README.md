@@ -2,19 +2,41 @@
 
  Cpp solutions to some coding problems.
 
+<details>
+<summary>
+
 ## Table Of Contents
+
+</summary>
 
 - [cpp\_solutions](#cpp_solutions)
   - [Table Of Contents](#table-of-contents)
   - [cpp-basics](#cpp-basics)
   - [cpp-blind-75](#cpp-blind-75)
-  - [Graph](#graph)
-  - [Dynamic Problemming](#dynamic-programming)
+    - [Array](#array)
+    - [Binary](#binary)
+    - [Matrix](#matrix)
+    - [Linked List](#linked-list)
+    - [String](#string)
+    - [Heap](#heap)
+    - [Interval](#interval)
+    - [Tree](#tree)
+    - [Graph](#graph)
+    - [Dynamic Programming](#dynamic-programming)
 
+</details>
+
+
+<details>
+<summary>
 
 ## [cpp-basics](./cpp-basics)
 
+</summary>
+<p>
 The [cpp-basics](./cpp-basics/README.md) contains basic programs learning C++ language.
+</p>
+</details>
 
 ## [cpp-blind-75](./cpp-blind-75/)
 
@@ -22,7 +44,7 @@ The [cpp-blind-75](./cpp-blind-75/README.md) contains a collection of solutions 
 
 Leetcode links for the programs at the beginning of each file.
 
-## Array
+### Array
 
 | SL NO. | PROBLEM NAME | DATE | Notes |
 | :----: | --------- | :-----: | --- |
@@ -37,7 +59,7 @@ Leetcode links for the programs at the beginning of each file.
 | 09 | [Array - 3Sum](<cpp-blind-75/09_Array_-_3Sum.cpp>) | 28-July-2023 |  |
 | 10 | [Array - Container With Most Water](<cpp-blind-75/10_Array_-_Container_With_Most_Water.cpp>) | 28-July-2023 |  |
 
-## Binary
+### Binary
 
 | SL NO. | PROBLEM NAME | DATE | Notes |
 | :----: | --------- | :-----: | --- |
@@ -47,7 +69,7 @@ Leetcode links for the programs at the beginning of each file.
 | 14 | [Binary - Missing Number](<cpp-blind-75/14_Binary_-_Missing_Number.cpp>) | 28-July-2023 |  |
 | 15 | [Binary - Reverse Bits](<cpp-blind-75/15_Binary_-_Reverse_Bits.cpp>) | 28-July-2023 |  |
 
-## Matrix
+### Matrix
 
 | SL NO. | PROBLEM NAME | DATE | Notes |
 | :----: | --------- | :-----: | --- |
@@ -56,7 +78,7 @@ Leetcode links for the programs at the beginning of each file.
 | 18 | [Matrix - Rotate Image](<cpp-blind-75/18_Matrix_-_Rotate_Image.cpp>) | 29-July-2023 |  |
 | 19 | [Matrix - Word Search](<cpp-blind-75/19_Matrix_-_Word_Search.cpp>) | 29-July-2023 |  |
 
-## Linked List
+### Linked List
 
 | SL NO. | PROBLEM NAME | DATE | Notes |
 | :----: | --------- | :-----: | --- |
@@ -67,7 +89,7 @@ Leetcode links for the programs at the beginning of each file.
 | 24 | [Linked List - Remove Nth Node From End of List](<cpp-blind-75/24_Linked_List_-_Remove_Nth_Node_From_End_of_List.cpp>) | 02-Aug-2023 |  |
 | 25 | [Linked List - Reorder List](<cpp-blind-75/25_Linked_List_-_Reorder_List.cpp>) | 02-Aug-2023 |  |
 
-## String
+### String
 
 | SL NO. | PROBLEM NAME | DATE | Notes |
 | :----: | --------- | :-----: | --- |
@@ -82,14 +104,14 @@ Leetcode links for the programs at the beginning of each file.
 | 34 | [String - Palindromic Substrings](<cpp-blind-75/34_String_-_Palindromic_Substrings.cpp>) | 05-Aug-2023 |  |
 | 35 | [String - Encode and Decode Strings](<cpp-blind-75/35_String_-_Encode_and_Decode_Strings.cpp>) | 05-Aug-2023 |  |
 
-## Heap
+### Heap
 
 | SL NO. | PROBLEM NAME | DATE | Notes |
 | :----: | --------- | :-----: | --- |
 | 36 | [Heap - Top K Frequent Elements_Bucket Sort](<cpp-blind-75/36_Heap_-_Top_K_Frequent_Elements_Bucket_Sort.cpp>) | 06-Aug-2023 |  |
 | 37 | [Heap - Find Median from Data Stream](<cpp-blind-75/37_Heap_-_Find_Median_from_Data_Stream.cpp>) | 06-Aug-2023 |  |
 
-## Interval
+### Interval
 
 | SL NO. | PROBLEM NAME | DATE | Notes |
 | :----: | --------- | :-----: | --- |
@@ -99,7 +121,7 @@ Leetcode links for the programs at the beginning of each file.
 | 41 | [Interval - Meeting Rooms](<cpp-blind-75/41_Interval_-_Meeting_Rooms.cpp>) | 06-Aug-2023 |  |
 | 42 | [Interval - Meeting Rooms II](<cpp-blind-75/42_Interval_-_Meeting_Rooms_II.cpp>) | 06-Aug-2023 |  |
 
-## Tree
+### Tree
 
 | SL NO. | PROBLEM NAME | DATE | Notes |
 | :----: | --------- | :-----: | --- |
@@ -118,7 +140,7 @@ Leetcode links for the programs at the beginning of each file.
 | 55 | [Tree - Add and Search Word](<cpp-blind-75/55_Tree_-_Add_and_Search_Word.cpp>) | 08-Aug-2023 |  |
 | 56 | [Tree - Word Search II](<cpp-blind-75/56_Tree_-_Word_Search_II.cpp>) | 08-Aug-2023 |  |
 
-## Graph
+### Graph
 
 | SL No | Problem Name | Difficulty | Leetcode | Lintcode | Solution | Notes |
 | :----: | --------- | ----- | :-----: | :-----: | :-----: | ----- |
@@ -131,7 +153,7 @@ Leetcode links for the programs at the beginning of each file.
 | 63 | Graph Valid Tree | 🟡Medium | 🔒 [261](https://leetcode.com/problems/graph-valid-tree) | [178](https://www.lintcode.com/problem/178) | 13-Aug-2023<br>[Cpp](<./cpp-blind-75/63_graph-valid-tree.cpp>) |   |
 | 64 | Number of Connected Components in an Undirected Graph | 🟡Medium | 🔒 [323](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph) | [3651](https://www.lintcode.com/problem/3651) | 13-Aug-2023<br>[Cpp](<./cpp-blind-75/64_number-of-connected-components-in-an-undirected-graph.cpp>) |   |
 
-## Dynamic Problemming
+### Dynamic Programming
 
 | SL No | Problem Name | Difficulty | Leetcode | Lintcode | Solution | Notes |
 | :----: | --------- | ----- | :-----: | :-----: | :-----: | ----- |
