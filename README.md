@@ -25,8 +25,6 @@
     - [Dynamic Programming](#dynamic-programming)
 
 </details>
-
-
 <details>
 <summary>
 
