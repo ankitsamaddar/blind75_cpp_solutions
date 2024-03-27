@@ -137,29 +137,29 @@ Leetcode links for the programs at the beginning of each file.
 
 ### Graph
 
-| SL No | Problem Name | Difficulty | Leetcode | Lintcode | Solution | Notes |
-| :----: | --------- | ----- | :-----: | :-----: | :-----: | ----- |
-| 57 | Clone Graph | 🟡Medium | [133](https://leetcode.com/problems/clone-graph) | [137](https://www.lintcode.com/problem/137) | 09-Aug-2023<br>[Cpp](<./cpp-blind-75/57_clone-graph.cpp>) |   |
-| 58 | Course Schedule | 🟡Medium | [207](https://leetcode.com/problems/course-schedule) | [615](https://www.lintcode.com/problem/615) | 09-Aug-2023<br>[Cpp](<./cpp-blind-75/58_course-schedule.cpp>) |   |
-| 59 | Pacific Atlantic Water Flow | 🟡Medium | [417](https://leetcode.com/problems/pacific-atlantic-water-flow) | [778](https://www.lintcode.com/problem/778) | 12-Aug-2023<br>[Cpp](<./cpp-blind-75/59_pacific-atlantic-water-flow.cpp>) |   |
-| 60 | Number of Islands | 🟡Medium | [200](https://leetcode.com/problems/number-of-islands) | [433](https://www.lintcode.com/problem/433) | 12-Aug-2023<br>[Cpp](<./cpp-blind-75/60_number-of-islands.cpp>) |   |
-| 61 | Longest Consecutive Sequence | 🟡Medium | [128](https://leetcode.com/problems/longest-consecutive-sequence) | [124](https://www.lintcode.com/problem/124) | 12-Aug-2023<br>[Cpp](<./cpp-blind-75/61_longest-consecutive-sequence.cpp>) |   |
-| 62 | Alien Dictionary | 🔴Hard | 🔒 [269](https://leetcode.com/problems/alien-dictionary) | [892](https://www.lintcode.com/problem/892) | 13-Aug-2023<br>[Cpp](<./cpp-blind-75/62_alien-dictionary.cpp>) |   |
-| 63 | Graph Valid Tree | 🟡Medium | 🔒 [261](https://leetcode.com/problems/graph-valid-tree) | [178](https://www.lintcode.com/problem/178) | 13-Aug-2023<br>[Cpp](<./cpp-blind-75/63_graph-valid-tree.cpp>) |   |
-| 64 | Number of Connected Components in an Undirected Graph | 🟡Medium | 🔒 [323](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph) | [3651](https://www.lintcode.com/problem/3651) | 13-Aug-2023<br>[Cpp](<./cpp-blind-75/64_number-of-connected-components-in-an-undirected-graph.cpp>) |   |
+| SL No | Problem Name w/ Difficulty |  Leetcode  |  Lintcode  |  Solution  | Notes |
+| :---: | -------------------------- | :--------: | :--------: | :--------: | ----- |
+|  57   | Clone Graph  <br> 🟡Medium  |  [133](https://leetcode.com/problems/clone-graph)  |  [137](https://www.lintcode.com/problem/137)  |  09-Aug-2023<br>[Cpp](<./cpp-blind-75/57_clone-graph.cpp>)  |  |
+|  58   | Course Schedule  <br> 🟡Medium  |  [207](https://leetcode.com/problems/course-schedule)  |  [615](https://www.lintcode.com/problem/615)  |  09-Aug-2023<br>[Cpp](<./cpp-blind-75/58_course-schedule.cpp>)  |  |
+|  59   | Pacific Atlantic Water Flow  <br> 🟡Medium  |  [417](https://leetcode.com/problems/pacific-atlantic-water-flow)  |  [778](https://www.lintcode.com/problem/778)  |  12-Aug-2023<br>[Cpp](<./cpp-blind-75/59_pacific-atlantic-water-flow.cpp>)  |  |
+|  60   | Number of Islands  <br> 🟡Medium  |  [200](https://leetcode.com/problems/number-of-islands)  |  [433](https://www.lintcode.com/problem/433)  |  12-Aug-2023<br>[Cpp](<./cpp-blind-75/60_number-of-islands.cpp>)  |  |
+|  61   | Longest Consecutive Sequence  <br> 🟡Medium  |  [128](https://leetcode.com/problems/longest-consecutive-sequence)  |  [124](https://www.lintcode.com/problem/124)  |  12-Aug-2023<br>[Cpp](<./cpp-blind-75/61_longest-consecutive-sequence.cpp>)  |  |
+|  62   | Alien Dictionary  <br> 🔴Hard  |  🔒 [269](https://leetcode.com/problems/alien-dictionary)  |  [892](https://www.lintcode.com/problem/892)  |  13-Aug-2023<br>[Cpp](<./cpp-blind-75/62_alien-dictionary.cpp>)  |  |
+|  63   | Graph Valid Tree  <br> 🟡Medium  |  🔒 [261](https://leetcode.com/problems/graph-valid-tree)  |  [178](https://www.lintcode.com/problem/178)  |  13-Aug-2023<br>[Cpp](<./cpp-blind-75/63_graph-valid-tree.cpp>)  |  |
+|  64   | Number of Connected Components in an Undirected Graph <br> 🟡Medium  | 🔒 [323](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph) | [3651](https://www.lintcode.com/problem/3651) | 13-Aug-2023<br>[Cpp](<./cpp-blind-75/64_number-of-connected-components-in-an-undirected-graph.cpp>) |  |
 
 ### Dynamic Programming
 
-| SL No | Problem Name | Difficulty | Leetcode | Lintcode | Solution | Notes |
-| :----: | --------- | ----- | :-----: | :-----: | :-----: | ----- |
-| 65 | Climbing Stairs | 🟢Easy | [70](https://leetcode.com/problems/climbing-stairs) | [111](https://www.lintcode.com/problem/111) | 13-Aug-2023<br>[Cpp](<./cpp-blind-75/65_climbing-stairs.cpp>) |   |
-| 66 | Coin Change | 🟡Medium | [322](https://leetcode.com/problems/coin-change) | [669](https://www.lintcode.com/problem/669) | 14-Aug-2023<br>[Cpp](<./cpp-blind-75/66_coin-change.cpp>) |   |
-| 67 | Longest Increasing Subsequence | 🟡Medium | [300](https://leetcode.com/problems/longest-increasing-subsequence) | [76](https://www.lintcode.com/problem/76) | 14-Aug-2023<br>[Cpp](<./cpp-blind-75/67_longest-increasing-subsequence.cpp>) |   |
-| 68 | Longest Common Subsequence | 🟡Medium | [1143](https://leetcode.com/problems/longest-common-subsequence) | [77](https://www.lintcode.com/problem/77) | 14-Aug-2023<br>[Cpp](<./cpp-blind-75/68_longest-common-subsequence.cpp>) |   |
-| 69 | Word Break | 🟡Medium | [139](https://leetcode.com/problems/word-break) | [107](https://www.lintcode.com/problem/107) | 14-Aug-2023<br>[Cpp](<./cpp-blind-75/69_word-break.cpp>) |   |
-| 70 | Combination Sum | 🟡Medium | [39](https://leetcode.com/problems/combination-sum) | [135](https://www.lintcode.com/problem/135) | 14-Aug-2023<br>[Cpp](<./cpp-blind-75/70_combination-sum.cpp>) |   |
-| 71 | House Robber | 🟡Medium | [198](https://leetcode.com/problems/house-robber) | [392](https://www.lintcode.com/problem/392) | 14-Aug-2023<br>[Cpp](<./cpp-blind-75/71_house-robber.cpp>) |   |
-| 72 | House Robber II | 🟡Medium | [213](https://leetcode.com/problems/house-robber-ii) | [534](https://www.lintcode.com/problem/534) | 14-Aug-2023<br>[Cpp](<./cpp-blind-75/72_house-robber-ii.cpp>) |   |
-| 73 | Decode Ways | 🟡Medium | [91](https://leetcode.com/problems/decode-ways) | [512](https://www.lintcode.com/problem/512) | 15-Aug-2023<br>[Cpp](<./cpp-blind-75/73_decode-ways.cpp>) |   |
-| 74 | Unique Paths | 🟡Medium | [62](https://leetcode.com/problems/unique-paths) | [114](https://www.lintcode.com/problem/114) | 15-Aug-2023<br>[Cpp](<./cpp-blind-75/74_unique-paths.cpp>) |   |
-| 75 | Jump Game | 🟡Medium | [55](https://leetcode.com/problems/jump-game) | [116](https://www.lintcode.com/problem/116) | 15-Aug-2023<br>[Cpp](<./cpp-blind-75/75_jump-game.cpp>) |   |
+| SL No | Problem Name w/ Difficulty  | Leetcode |  Lintcode  |  Solution  | Notes  |
+| :---: | --------------------------- | :------: | :--------: | :--------: | ------ |
+|  65   | Climbing Stairs  <br> 🟢Easy   |  [70](https://leetcode.com/problems/climbing-stairs)  | [111](https://www.lintcode.com/problem/111) | 13-Aug-2023<br>[Cpp](<./cpp-blind-75/65_climbing-stairs.cpp>)  |   |
+|  66   | Coin Change  <br>🟡Medium  |  [322](https://leetcode.com/problems/coin-change)  | [669](https://www.lintcode.com/problem/669) | 14-Aug-2023<br>[Cpp](<./cpp-blind-75/66_coin-change.cpp>)  |   |
+|  67   | Longest Increasing Subsequence <br>🟡Medium  | [300](https://leetcode.com/problems/longest-increasing-subsequence) |  [76](https://www.lintcode.com/problem/76)  | 14-Aug-2023<br>[Cpp](<./cpp-blind-75/67_longest-increasing-subsequence.cpp>) |   |
+|  68   | Longest Common Subsequence  <br>🟡Medium  |  [1143](https://leetcode.com/problems/longest-common-subsequence)   |  [77](https://www.lintcode.com/problem/77)  | 14-Aug-2023<br>[Cpp](<./cpp-blind-75/68_longest-common-subsequence.cpp>)  |   |
+|  69   | Word Break  <br>🟡Medium  |  [139](https://leetcode.com/problems/word-break)  | [107](https://www.lintcode.com/problem/107) | 14-Aug-2023<br>[Cpp](<./cpp-blind-75/69_word-break.cpp>)  |   |
+|  70   | Combination Sum  <br>🟡Medium  |  [39](https://leetcode.com/problems/combination-sum)  | [135](https://www.lintcode.com/problem/135) | 14-Aug-2023<br>[Cpp](<./cpp-blind-75/70_combination-sum.cpp>)  |   |
+|  71   | House Robber  <br>🟡Medium  |  [198](https://leetcode.com/problems/house-robber)  | [392](https://www.lintcode.com/problem/392) | 14-Aug-2023<br>[Cpp](<./cpp-blind-75/71_house-robber.cpp>)  |   |
+|  72   | House Robber II  <br>🟡Medium  |  [213](https://leetcode.com/problems/house-robber-ii)  | [534](https://www.lintcode.com/problem/534) | 14-Aug-2023<br>[Cpp](<./cpp-blind-75/72_house-robber-ii.cpp>)  |   |
+|  73   | Decode Ways  <br>🟡Medium  |  [91](https://leetcode.com/problems/decode-ways)  | [512](https://www.lintcode.com/problem/512) | 15-Aug-2023<br>[Cpp](<./cpp-blind-75/73_decode-ways.cpp>)  |   |
+|  74   | Unique Paths  <br>🟡Medium  |  [62](https://leetcode.com/problems/unique-paths)  | [114](https://www.lintcode.com/problem/114) | 15-Aug-2023<br>[Cpp](<./cpp-blind-75/74_unique-paths.cpp>)  |   |
+|  75   | Jump Game  <br>🟡Medium  |  [55](https://leetcode.com/problems/jump-game)  | [116](https://www.lintcode.com/problem/116) | 15-Aug-2023<br>[Cpp](<./cpp-blind-75/75_jump-game.cpp>)  |   |
