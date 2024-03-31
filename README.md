@@ -2,15 +2,10 @@
 
  Cpp solutions to some coding problems.
 
-<details>
-<summary>
 
 ## Table Of Contents
 
-</summary>
-
 - [cpp\_solutions](#cpp_solutions)
-  - [Table Of Contents](#table-of-contents)
   - [cpp-basics](#cpp-basics)
   - [cpp-blind-75](#cpp-blind-75)
     - [Array](#array)
@@ -23,9 +18,9 @@
     - [Tree](#tree)
     - [Graph](#graph)
     - [Dynamic Programming](#dynamic-programming)
+
 <details>
 <summary>
-
 ## [cpp-basics](./cpp-basics)
 </summary>
 
